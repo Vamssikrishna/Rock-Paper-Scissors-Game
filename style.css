@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+   color: wheat;
+   text-align: center;
+   margin-top: 20px; 
+   font-size: xx-large;  
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    margin-top: 100px;
+    margin-left: 377px;
+    transition: all 2s ease-in;
+}
+
+.choice,img{
+    height: 100px;
+    width: 120px;
+    border-radius: 11px;
+    transition: all 0.2s ease-out;
+    object-fit: cover;
+}
+
+#rimage:hover{
+    height: 110px;
+    width: 125px;
+    box-shadow: 6px 6px 9px goldenrod;
+}
+
+#pimage:hover{
+    height: 110px;
+    width: 125px;
+    box-shadow: 6px 6px 9px goldenrod;
+}
+
+#simage:hover{
+    height: 110px;
+    width: 125px;
+    box-shadow: 6px 6px 9px goldenrod;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin-left: 377px;
+}
+
+.userscore{
+    font-size: xx-large;
+    margin-right: 40px;
+    color: gold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#user-score{
+    font-size: larger;
+
+}
+
+#computer-score{
+    font-size: larger;
+}
+
+.computerscore{
+    font-size: xx-large;
+    margin-left: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: gold;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 530px;
+    height: 70px;
+    margin-left: 490px;
+    font-size: 2.3rem;
+    border-radius: 9px;
+    color: gold;
+}
+
+#ustats{
+    font-family: sans-serif;
+    text-shadow: gold 1px 0px 10px;
+}
+
+#tip{
+    font-family: sans-serif;
+    font-size: small;
+    color: gold;
+    font-weight: 400;
+    margin-top: 10px;
+    text-shadow: gold 1px 0px 10px;
+}
